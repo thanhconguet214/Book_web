@@ -1,0 +1,29 @@
+en:
+  static_pages:
+    home: 
+      title1: "Book FRAMGIA"
+    help:
+      title2: "Help User"
+    
+  layouts:
+    header:
+      title: "BOOK FRAMGIA"
+      home: "Home"
+      help: "Help"
+      login: "Log In"
+      signup: "Sign Up"
+      slogan: "Welcome to Book FRAMGIA"
+      list_book: "List Book"
+      more: More
+      book_1 : "Type Book"
+      rank: "Top Follow BOOK"
+      name1: "[HAN-OE9-R]Nguyen Thanh Cong"
+    footer:
+      about: "About"
+      guide: "User Guide"
+      feedback: "Feedback"
+      contact: "Contact Us"
+      address: "13F Keangnam Landmark 72 Tower, Plot E6, Pham Hung Road, Nam Tu Liem, Ha Noi, Viet Nam."
+      email: "education@framgia.com"
+      phone: "84-4-3795-5417"
+      social: "Social"

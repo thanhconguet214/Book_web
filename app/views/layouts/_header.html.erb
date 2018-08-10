@@ -1,0 +1,108 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <div class = "navbar-header">
+      <div class = "navbar-left show">
+        <%= link_to t(".title"), root_path, id: "logo" %>
+      </div>
+    </div>
+    <nav>
+    <div id = "mainmenu" class = "navbar-right in fade"> 
+      <ul class="nav navbar-nav navbar-white text-uppercas">
+        <li><%= link_to t(".home"), root_path %></li>
+        <li><%= link_to t(".help"), help_path %></li>
+        <li><%= link_to t(".signup"), signup_path %></li>
+        <li><%= link_to t(".login"), "#" %></li>
+      </ul>
+    </div>
+    </nav>
+  </div>
+</header>
+<div class = "header-text">
+  <div class = "space-70"></div>
+  <div class = "jumbotron">
+    <h1 id="slogan"><%= t ".slogan" %></h1>
+  </div>
+  <div class = "space-40"></div>
+</div>
+<div class = "container row gray-bg" style="margin: 0 auto;">
+  <div class = "col-md-9 border-d6">
+    <section id="section0" class = "gray-bg">
+      <div class="space-40"></div>
+      <div class="container section-book">
+        <div class="row">
+          <h2><strong><%= t ".list_book" %></strong></h2>
+          <%= link_to image_tag("book1.jpg", alt: "book logo"), "app/assets/images/book1.jpg" %>
+          <div class="title-bar blue"></div>
+        </div>
+      <div class = "space-20"></div>
+      <div class = "row fix"></div>
+      <div class = "row">
+        <div class="col-md-12 border-d3 text-center">
+          <a class="btn btn-warning btn-xs uppercase" href="#"><%= t ".more" %></a>
+        </div>
+      </div>
+      <div class = "space-20"></div>
+      </div>            
+    </section>
+
+    <section id="section0" class = "gray-bg">
+      <div class="space-40"></div>
+      <div class="container section-book">
+        <div class="row">
+          <h2><strong><%= t ".book_1" %></strong></h2>
+          <%= link_to image_tag("book.jpg", alt: "book logo"), "app/assets/images/book.jpg" %>
+          <div class="title-bar blue"></div>
+        </div>
+      <div class = "space-20"></div>
+      <div class = "row fix"></div>
+      <div class = "row">
+        <div class="col-md-12 border-d3 text-center">
+          <a class="btn btn-warning btn-xs uppercase" href="#"><%= t ".more" %></a>
+        </div>
+      </div>
+      <div class = "space-20"></div>
+      </div>            
+    </section>
+  </div>
+  <div class="col-md-3 border-d6">
+    <div class = "space-40"></div>
+    <h2>
+      <strong><%= t ".rank" %></strong>
+    </h2>
+    <div class="title-bar blue">
+      <ul class= "list-inline list-unstyle">
+        <li>
+          <i class="icofont icofont-square">
+            <%= link_to image_tag("book1.jpg", alt: "book logo"), "app/assets/images/book1.jpg" %>
+          </i>
+        </li>
+        <li>
+          <i class="icofont icofont-square">
+            <h3><%= t ".name1" %></h3>
+          </i>
+        </li>
+      </ul>
+    </div>
+    <div class="space-20"></div>
+    <div class="row hot-user">
+      <div class="row">
+        <div class="hot-user-img col-md-4"></div>
+        <div class="infor col-md-8 text-left"></div>
+      </div>
+    </div>
+    <div class="row hot-user">
+      <div class="row">
+        <div class="hot-user-img col-md-4"></div>
+        <div class="infor col-md-8 text-left"></div>
+      </div>
+    </div>
+    <div class="row hot-user">
+      <div class="row">
+        <div class="hot-user-img col-md-4"></div>
+        <div class="infor col-md-8 text-left"></div>
+      </div>
+    </div>
+    <hr class=""hr-new">
+    <div class="space-20"></div>
+  </div>
+</div>
